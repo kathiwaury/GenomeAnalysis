@@ -13,4 +13,4 @@ module load bioinfo-tools
 module load megahit
 
 # your commands
-megahit -1 ~/data/raw/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 ~/data/raw/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o ~/results/megahit_SRR4342133 --kmin-1pass --k-max 105 --k-step 10 -t 2
+megahit -1 ~/data/raw/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 ~/data/raw/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o ~/results/megahit_SRR4342133 --kmin-1pass --k-min 65 --k-max 105 --k-step 10 -t 2
