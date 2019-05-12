@@ -13,5 +13,4 @@ module load bioinfo-tools
 module load bwa
 
 # Your commands
-bwa index ~/results/metabat_SRR4342129/bin_SRR4342129-1.fa
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-1.fa ~/data/primary/RNA_trimmed/SRR4342137_trimmed_1P.fq.gz ~/data/primary/RNA_trimmed/SRR4342137_trimmed_2P.fq.gz > bin_SRR4342129-1_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-1.fa ~/data/raw/RNA_untrimmed/SRR4342137.1.fastq.gz ~/data/raw/RNA_untrimmed/SRR4342137.2.fastq.gz > bin_SRR4342129-1_mapped_2.sam
