@@ -3,8 +3,8 @@
 #SBATCH -A g2019003
 #SBATCH -p core
 #SBATCH -n 4
-#SBATCH -t 08:00:00
-#SBATCH -J 190516_phylophlan_KW_SRR4342129
+#SBATCH -t 12:00:00
+#SBATCH -J 190523_phylophlan_KW_SRR4342129
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user kathiwaury@gmail.com
 
@@ -18,4 +18,4 @@ module load usearch/5.2.32
 
 # Your commands
 cd ~/nsegata-phylophlan-1d174e34b2ae/
-./phylophlan.py -i -t --nproc 4  metagenome_29
+./phylophlan.py -i --nproc 4  metagenome_29
