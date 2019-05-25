@@ -17,20 +17,20 @@ bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-1.fa ~/data/raw/DNA_
 
 bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-2_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-3_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-3.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-3_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-4_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-4.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-4_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-5_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-5.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-5_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-6_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-6.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-6_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-7_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-7.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-7_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-8_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-8.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-8_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-9_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-9.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-9_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-10_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-10.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-10_DNA_mapped.sam
 
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-2.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-11_DNA_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-11.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-11_DNA_mapped.sam
