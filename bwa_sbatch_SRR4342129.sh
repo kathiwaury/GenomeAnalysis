@@ -41,7 +41,7 @@ bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-8.fa ~/data/primary/
 bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-9.fa ~/data/primary/RNA_trimmed/SRR4342137_trimmed_1P.fq.gz ~/data/primary/RNA_trimmed/SRR4342137_trimmed_2P.fq.gz > bin_SRR4342129-9_mapped.sam
 
 #bwa index ~/results/metabat_SRR4342129/bin_SRR4342129-10.fa
-bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-10.fa ~/data/primary/RNA_trimmed/SRR4342137_trimmed_1P.fq.gz ~/data/primary/RNA_trimmed/~/data/primary/RNA_trimmed/SRR4342137_trimmed_2P.fq.gz > bin_SRR4342129-10_mapped.sam
+bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-10.fa ~/data/primary/RNA_trimmed/SRR4342137_trimmed_1P.fq.gz ~/data/primary/RNA_trimmed/SRR4342137_trimmed_2P.fq.gz > bin_SRR4342129-10_mapped.sam
 
 #bwa index ~/results/metabat_SRR4342129/bin_SRR4342129-11.fa
 bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-11.fa ~/data/primary/RNA_trimmed/SRR4342137_trimmed_1P.fq.gz ~/data/primary/RNA_trimmed/SRR4342137_trimmed_2P.fq.gz > bin_SRR4342129-11_mapped.sam
