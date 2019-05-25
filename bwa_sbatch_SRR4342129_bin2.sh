@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 04:00:00
-#SBATCH -J 190512_bwa_KW_SRR4342129_bin1
+#SBATCH -J 190513_bwa_KW_SRR4342129_bin2
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user kathiwaury@gmail.com
 
