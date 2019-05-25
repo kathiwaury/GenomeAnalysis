@@ -11,6 +11,7 @@
 # Load modules
 module load bioinfo-tools
 module load bwa
+module load samtools
 
 # Your commands
 #bwa mem -P -t 2 ~/results/metabat_SRR4342129/bin_SRR4342129-1.fa ~/data/raw/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz ~/data/raw/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > bin_SRR4342129-1_DNA_mapped.sam
